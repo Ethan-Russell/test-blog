@@ -18,6 +18,6 @@ module.exports = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: assetPrefix,
+  assetPrefix: "/test-blog/",
   basePath: basePath,
 }
