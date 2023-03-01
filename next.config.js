@@ -13,7 +13,11 @@ if (isGithubActions) {
   basePath = `/${repo}`
 }
 
+
 module.exports = {
+  images: {
+    unoptimized: true,
+  },
   assetPrefix: assetPrefix,
   basePath: basePath,
 }
